@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const version = 'v1.2.0';
+const version = 'v1.3.0';
 const url = `https://raw.githubusercontent.com/desarrollamo/branding/${version}/tokens/brand.css`;
 const response = await fetch(url);
 if (!response.ok) throw new Error(`No se pudo sincronizar Branding ${version}: ${response.status}`);

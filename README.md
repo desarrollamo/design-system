@@ -6,7 +6,7 @@ Sistema de diseño oficial para construir interfaces coherentes de DesarrollAMO 
 
 [`desarrollamo/branding`](https://github.com/desarrollamo/branding) define la identidad. Este repositorio la consume y define cómo esa identidad se convierte en interfaz.
 
-No se redefinen logos ni colores de marca a mano. `npm run sync-brand` sincroniza los tokens desde `branding@v1.2.0`.
+No se redefinen logos ni colores de marca a mano. `npm run sync-brand` sincroniza los tokens desde `branding@v1.3.0`.
 
 ## Qué incluye
 
@@ -18,7 +18,15 @@ No se redefinen logos ni colores de marca a mano. `npm run sync-brand` sincroniz
 - badges;
 - campos e inputs;
 - tipografía y jerarquías básicas;
+- footer corporativo para superficies propias;
+- footer de atribución para trabajos de clientes;
 - specimen visual en `examples/index.html`.
+
+## Footers oficiales
+
+components/footer/corporate.html es para superficies propias de DesarrollAMO e incluye marca, © y enlaces a FAQ, Términos, Privacidad, Cookies, Pagos y Licencias.
+
+components/footer/attribution.html es la firma mínima para sitios de clientes: **Desarrollado por DesarrollAMO.** enlazado al dominio corporativo. Para integrarlo sin alterar estilos globales del cliente se importa sólo dist/footer.css. No arrastra políticas de DesarrollAMO al sitio del cliente y puede omitirse cuando el acuerdo sea white-label o sin atribución.
 
 ## Uso actual
 
