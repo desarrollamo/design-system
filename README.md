@@ -6,7 +6,7 @@ Sistema de diseño oficial para construir interfaces coherentes de DesarrollAMO 
 
 [`desarrollamo/branding`](https://github.com/desarrollamo/branding) define la identidad. Este repositorio la consume y define cómo esa identidad se convierte en interfaz.
 
-No se redefinen logos ni colores de marca a mano. `npm run sync-brand` sincroniza los tokens desde `branding@v1.1.0`.
+No se redefinen logos ni colores de marca a mano. `npm run sync-brand` sincroniza los tokens desde `branding@v1.2.0`.
 
 ## Qué incluye
 
@@ -37,7 +37,7 @@ npm run check
 
 El comando:
 
-1. sincroniza Branding `v1.1.0`;
+1. sincroniza Branding `v1.2.0`;
 2. construye `dist/design-system.css`;
 3. valida archivos, contratos, accesibilidad básica y placeholders.
 
@@ -53,3 +53,7 @@ El comando:
 Repositorio: https://github.com/desarrollamo/design-system
 
 Sitio empresarial: https://desarrollamo.com.ar/
+
+## Superficie pública
+
+Este repositorio expone únicamente primitivas genéricas. Los componentes específicos de productos, flujos internos y lógica de negocio permanecen fuera del Design System público.

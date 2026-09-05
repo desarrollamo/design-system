@@ -10,6 +10,7 @@
   --amo-accent-alt: var(--amo-sky);
   --amo-radius: 18px;
   --amo-radius-sm: 12px;
+  --amo-radius-pill: 999px;
   --amo-shadow: 0 18px 50px rgba(0,0,0,.28);
   --amo-space-1: .25rem;
   --amo-space-2: .5rem;

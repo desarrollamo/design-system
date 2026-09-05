@@ -1,5 +1,5 @@
-/* DesarrollAMO Design System v0.1.0 */
-/* Generado desde desarrollamo/branding@v1.1.0. No editar a mano. */
+/* DesarrollAMO Design System v0.2.0 */
+/* Generado desde desarrollamo/branding@v1.2.0. No editar a mano. */
 :root {
   --amo-sky: #7DD3FC;
   --amo-pink: #FF5AA5;
@@ -11,20 +11,7 @@
   --amo-white: #FFFFFF;
   --amo-black: #000000;
   --amo-font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  --amo-radius-pill: 999px;
-  --amo-glass-dark: rgba(0, 0, 0, 0.58);
-  --amo-glass-light: rgba(255, 255, 255, 0.78);
-  --amo-border-dark: rgba(255, 255, 255, 0.14);
-  --amo-border-light: rgba(0, 0, 0, 0.10);
 }
-
-.amo-brand-wordmark {
-  font-family: var(--amo-font-sans);
-  font-weight: 800;
-}
-.amo-brand-wordmark .desarroll { color: var(--amo-sky); }
-.amo-brand-wordmark .amo { color: var(--amo-pink); }
-.amo-brand-wordmark .dot { color: var(--amo-sky); }
 
 :root {
   --amo-bg: #07090d;
@@ -38,6 +25,7 @@
   --amo-accent-alt: var(--amo-sky);
   --amo-radius: 18px;
   --amo-radius-sm: 12px;
+  --amo-radius-pill: 999px;
   --amo-shadow: 0 18px 50px rgba(0,0,0,.28);
   --amo-space-1: .25rem;
   --amo-space-2: .5rem;
