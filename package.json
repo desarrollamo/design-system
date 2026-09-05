@@ -1,0 +1,13 @@
+{
+  "name": "@desarrollamo/design-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sistema de diseño oficial de DesarrollAMO",
+  "scripts": {
+    "sync-brand": "node scripts/sync-branding.mjs",
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run sync-brand && npm run build && npm run validate"
+  }
+}
